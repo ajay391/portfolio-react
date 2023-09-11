@@ -1,0 +1,21 @@
+.about{
+    margin-top: 4rem;
+}
+.about_head{
+    margin-bottom: 2rem;
+}
+.about .main_about_content{
+    font-size: 1.25rem;
+    
+}
+.about b{
+    color: var(--primary-color2);
+}
+
+
+@media only screen and (max-width:1024px){
+
+    .about{
+        margin-top: 0rem;
+    }
+  }

@@ -1,0 +1,146 @@
+.hero_sec  {
+  height: 100%;
+  padding: 6rem 0rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.home_c_container{
+  display: flex;
+  flex-direction: column;
+  gap: 5rem;
+}
+
+
+.hero_sec h1 {
+  font-size: clamp(40px, 8vw, 65px);
+  font-weight: 700;
+}
+.hero_sec h1 ,.hero_sec h3{
+  color: #e2e8f0;
+ 
+}
+
+
+.auto-type ,.auto-type span{
+  color: var(--bg-color);
+}
+/*Making responsive*/
+
+/* auto type  */
+.type {
+  display: inline-block;
+  vertical-align: bottom;
+}
+
+.type>span {
+  display: grid;
+  overflow: hidden;
+  height: 1.2em;
+}
+
+.type span span {
+  width: 0%;
+  max-width: max-content;
+  overflow: hidden;
+  height: inherit;
+  word-break: break-all;
+  animation:
+    c 0.5s infinite steps(1),
+    t 2s linear infinite alternate,
+    m 12s steps(3) infinite;
+}
+
+.type span span:before {
+  content: " ";
+  display: inline-block;
+}
+
+@keyframes t {
+
+  90%,
+  100% {
+    width: 100%
+  }
+}
+
+@keyframes c {
+
+  0%,
+  100% {
+    box-shadow: 5px 0 0 #0000
+  }
+
+  50% {
+    box-shadow: 5px 0 0 var(--button-bg)
+  }
+}
+
+@keyframes m {
+  100% {
+    transform: translateY(-300%)
+  }
+}
+
+
+
+.links__container{
+  display: flex;
+  flex-direction: column;
+}
+
+.sm_container{
+  display: flex;
+  gap: 10px;
+  font-size: 2rem;
+  margin-top: 3rem;
+}
+.sm_container .sm_icon{
+  color: #8796ab;
+}
+
+.links__container a {
+  width: fit-content;
+  align-items: center;
+  background-color: transparent;
+  color: #fff;
+  cursor: pointer;
+  display: flex;
+  font-size: 1.1rem;
+  text-decoration: none;
+  outline: 0;
+  border: 0;
+  padding: .5rem 0rem;
+}
+
+.links__container a:before {
+  background-color: var(--primary-color2);
+  content: "";
+  display: inline-block;
+  height: 2px;
+  margin-right: 10px;
+  transition: all .42s cubic-bezier(.25,.8,.25,1);
+  width: 0;
+}
+
+/* .links__container a:hover:before {
+  background-color: #fff;
+  width: 3rem;
+} */
+
+
+ .links__container a.active:before {
+  background-color: var(--primary-color2);
+  width: 3rem;
+}
+
+
+@media only screen and (max-width:768px){
+
+  .home_c_container{
+ 
+    gap: 3rem;
+  }
+  
+}

@@ -1,0 +1,107 @@
+  .hero-row{
+    display: flex;
+    gap:20px;
+  }
+  .custom-col-md-6 {
+    width: 50%; /* Set the width to 50% of the parent container */
+     /* Float the element to the left for a left-to-right layout */
+    /* Add other styles as needed */
+  }
+
+.fixed-column {
+  width: 50%;
+  position: sticky;
+  top: 0;
+  max-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 2rem;
+
+  align-items: flex-start;
+}
+  
+.scrollable-column {
+  
+  width: 50%;
+
+}
+
+@media only screen and (max-width:1024px){
+
+  .hero-row{
+    display: block;
+  }
+  
+  .fixed-column {
+    position: static;
+    width: 100%;
+  }
+
+  .scrollable-column {
+   
+    width: 100%;
+
+  }
+}
+
+.cursor {
+  width: 20px;
+  height: 20px;
+  border: 1px solid var(--primary-color2);
+  border-radius: 50%;
+  position: absolute;
+  transition-duration: 200ms;
+  transition-timing-function: ease-out;
+  animation: cursorAnim 0.5s infinite alternate;
+  pointer-events: none;
+}
+
+.cursor::after {
+  content: '';
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  border: 8px solid var(--primary-color2);
+  border-radius: 50%;
+  opacity: 0.5;
+  top: -8px;
+  left: -8px;
+  animation: cursorAnim2 0.5s infinite alternate;
+}
+
+@keyframes cursorAnim {
+  from {
+    transform: scale(1);
+  }
+  to {
+    transform: scale(0.7);
+  }
+}
+
+@keyframes cursorAnim2 {
+  from {
+    transform: scale(1);
+  }
+  to {
+    transform: scale(0.4);
+  }
+}
+
+@keyframes cursorAnim3 {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(3);
+  }
+  100% {
+    transform: scale(1);
+    opacity: 0;
+  }
+}
+
+.expand {
+  animation: cursorAnim3 0.5s forwards;
+  border: 1px solid rgb(255, 41, 41);
+}
