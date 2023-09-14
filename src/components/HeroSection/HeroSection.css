@@ -9,7 +9,7 @@
 .home_c_container{
   display: flex;
   flex-direction: column;
-  gap: 5rem;
+  gap: 2rem;
 }
 
 
@@ -37,7 +37,8 @@
 .type>span {
   display: grid;
   overflow: hidden;
-  height: 1.2em;
+  /* height: 1.2em; */
+  height: 2.2rem;
 }
 
 .type span span {
@@ -136,11 +137,55 @@
 }
 
 
+#mydiv {
+  width: fit-content;
+  height: fit-content;
+  position: absolute;
+  bottom: 10px;
+  z-index: 9;
+  text-align: center;
+}
+
+#mydivheader {
+  padding: 10px;
+  cursor: move;
+  z-index: 10;
+
+}
+#mydivheader img{
+  width: 40px;
+  height: 40px;
+  animation: gelatine 2s infinite;
+}
+
+@keyframes gelatine {
+  from, to { transform: scale(1, 1); }
+  25% { transform: scale(0.9, 1.1); }
+  50% { transform: scale(1.1, 0.9); }
+  75% { transform: scale(0.95, 1.05); }
+}
+
+
+
+@keyframes elastic-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(720deg); }
+}
+
+
 @media only screen and (max-width:768px){
 
   .home_c_container{
- 
     gap: 3rem;
   }
+
+  .type>span {
+    height: 1.2em;
+  }
   
+  #mydiv{
+  	top: 0;
+/* position: fixed; */
+    /* display: none; */
+  }
 }

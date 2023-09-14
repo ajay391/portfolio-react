@@ -1,0 +1,12 @@
+.exp_section{
+
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+
+}
+
+.exp_heading{
+    margin-bottom: 1rem;
+}
+

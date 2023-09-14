@@ -4,10 +4,13 @@
 .about_head{
     margin-bottom: 2rem;
 }
-.about .main_about_content{
+.about p{
+   text-align: justify;
+}
+/* .about .main_about_content{
     font-size: 1.25rem;
     
-}
+} */
 .about b{
     color: var(--primary-color2);
 }

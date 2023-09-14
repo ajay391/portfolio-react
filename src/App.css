@@ -3,6 +3,7 @@
 
 #root{
   background-color: #0f172a;
+  /* background-color: #0e1526; */
 }
 
 /*  css variables */
@@ -11,6 +12,7 @@
   --card-bg-02: #d6e5fb;
   --card-bg-03: #ceebe9;
   --card-bg-04: #e2f2b2;
+  --root:#0e1526;
   /* --primary-color: #0a1d37; */
   --primary-color: #1b1c1c;
   /* --primary-color2: #A076F9; */
@@ -28,7 +30,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  
+  font-family: "Poppins", sans-serif;
 }
 
 html {
@@ -51,12 +53,17 @@ p {
 }
 h6, .h6, h5, .h5, h4, .h4, h3, .h3, h2, .h2, h1, .h1{
   color: #e2e8f0!important;
+  margin-bottom: 1rem!important;
+}
+h2, .h2{
+  margin-bottom: 2rem!important;
 }
 
 p {
   color: var(--small-text-color);
   font-size: 1.1rem;
   margin-bottom: 0px!important;
+  
 }
 
 h1,

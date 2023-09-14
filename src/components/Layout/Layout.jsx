@@ -7,6 +7,7 @@ import Education from '../Education/Education';
 import Experience from '../Experience/Experience';
 
 import './layout.css';
+import Work from '../Work/Work';
 
 const Layout = () => {
   useEffect(() => {
@@ -49,6 +50,7 @@ const Layout = () => {
             <About />
             <Skills />
             <Experience />
+            <Work/>
             <Education />
           </div>
         </div>

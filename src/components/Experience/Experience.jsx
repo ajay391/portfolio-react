@@ -1,15 +1,21 @@
-import React from 'react'
+import React from 'react';
+import './Experience.css';
+
+
 
 const Experience = () => {
+ 
   return (
     <div id='experience'>
-      <section>
-      <h2>Experience</h2>
-      <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cumque voluptatem eligendi et voluptates eius blanditiis, consequatur est nam illo, officia expedita perferendis optio facere quibusdam doloribus culpa magni. Sed, hic?Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cumque voluptatem eligendi et voluptates eius blanditiis, consequatur est nam illo, officia expedita perferendis optio facere quibusdam doloribus culpa magni. Sed, hic?Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cumque voluptatem eligendi et voluptates eius blanditiis, consequatur est nam illo, officia expedita perferendis optio facere quibusdam doloribus culpa magni. Sed, hic?Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cumque voluptatem eligendi et voluptates eius blanditiis, consequatur est nam illo, officia expedita perferendis optio facere quibusdam doloribus culpa magni. Sed, hic?Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cumque voluptatem eligendi et voluptates eius blanditiis, consequatur est nam illo, officia expedita perferendis optio facere quibusdam doloribus culpa magni. Sed, hic?Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cumque voluptatem eligendi et voluptates eius blanditiis, consequatur est nam illo, officia expedita perferendis optio facere quibusdam doloribus culpa magni. Sed, hic?Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cumque voluptatem eligendi et voluptates eius blanditiis, consequatur est nam illo, officia expedita perferendis optio facere quibusdam Sed, hic?</p>
+      <section className='exp_section'>
+        <h2 className='exp_heading'>Experience</h2>
+        
+        <p>
+          Your relevant content here...
+        </p>
       </section>
-      
     </div>
-  )
-}
+  );
+};
 
-export default Experience
+export default Experience;
