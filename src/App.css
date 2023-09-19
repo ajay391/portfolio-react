@@ -16,12 +16,13 @@
   /* --primary-color: #0a1d37; */
   --primary-color: #1b1c1c;
   /* --primary-color2: #A076F9; */
-  --primary-color2:  #5eead4;
+  /* --primary-color2:  #5eead4; */
+  --primary-color2:  #6adef3;
 
   --hero-bg: #d6e5fb;
   /* --hero-bg: #DDE6ED; */
   --heading-fontSize: 2rem;
-  --small-text-color: rgb(138 153 173);
+  --small-text-color: #97a5b7;
   --heading-text-color: #e2e8f0;
 }
 

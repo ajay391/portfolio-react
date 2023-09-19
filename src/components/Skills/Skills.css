@@ -56,7 +56,7 @@
     outline: none;
     cursor: pointer;
     font-size: .9rem;
-    width: fit-content;
+    width: 135px;
     display: flex;
     align-items: center;
     text-align: center;
@@ -65,10 +65,12 @@
     /* color: #84f5e8; */
     font-weight: 500;
     padding: .5rem 1rem;
-    background-color: #122c3e89;
+    /* background-color: #122c3e00; */
     /* background: #ffffff13; */
     border-radius: 10px;
-    border: 1px solid #5eead511;
+    border: 1px solid #2fc4ff5b;
+    background: linear-gradient(#0e2230, #0c1d29) padding-box,
+    linear-gradient(180deg, transparent 0%,#2fc4ff89, #0092be) border-box;
    }
 
 .skill_btn_span img{
