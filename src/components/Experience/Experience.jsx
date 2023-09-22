@@ -21,7 +21,7 @@ const Experience = () => {
     <div id='experience'>
       <section className='exp_section'>
         <h2 className='exp_heading'>Experience</h2>
-        <p>I bring a wealth of experience in web development and design, having worked on a variety of projects for clients from different industries. Explore my journey and notable achievements below.</p>
+        <p className='exp_head-para'>I bring a wealth of experience in web development and design, having worked on a variety of projects for clients from different industries. Explore my journey and notable achievements below.</p>
         
           {/* <Chrono items={items} 
             mode="VERTICAL_ALTERNATING" 
@@ -60,9 +60,9 @@ const Experience = () => {
               </div>
           </div>
         
-          <div class="timeline-block timeline-block-right">
+          <div class="timeline-block timeline-block-right" style={{marginBottom:'7px'}}>
               <div class="marker"></div>
-              <div class="timeline-content">
+              <div class="timeline-content" >
                 <h3>Govt. Law College, Ernakulam</h3>
                 <h5>Data Entry Operator</h5>
                 <h6>Aug 2021 - Nov 2021</h6>

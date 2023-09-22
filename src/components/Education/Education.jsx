@@ -103,7 +103,7 @@ const Education = () => {
               <div class="card__content">
                 {divs.map((div) => (
                   <div key={div.id} className={div.id === activeDiv ? '' : 'hidden'}>
-                    <h5 className="edu_course">{div.course}</h5>
+                    <h4 className="edu_course">{div.course}</h4>
                     <h6>{div.content}</h6>
                     <p>{div.year}</p>
                   </div>

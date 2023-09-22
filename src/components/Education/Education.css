@@ -175,7 +175,7 @@
 
 .edu_btn_container{
   display: flex;
-    justify-content: center;
+  justify-content: center;
 }
   .tabs {
     display: flex;
@@ -256,10 +256,10 @@
      .edu_section{
 
       gap: 1rem;
-  }
-  .edu_card {
-    width: 95%;
-  }
+    }
+    .edu_card {
+      width: 95%;
+    }
 
      .edu_content{
       width: 100%;

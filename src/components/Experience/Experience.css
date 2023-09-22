@@ -11,12 +11,14 @@
 }
 
 /* Timeline.css */
-
+.exp_section .exp_head-para{
+  text-align: justify;
+}
 
 .timeline_container {
   width: 90%;
-  padding: 30px 20px 0px 20px;
-  margin: 0px auto;
+  padding: 0px 20px 0px 20px;
+  margin: 30px auto 0px;
   position: relative;
   overflow: hidden;
 }
@@ -69,13 +71,16 @@
 
 .timeline-content {
   width: 95%;
-  padding: 1.5rem 1rem;
+  padding: 1.5rem 2rem;
   /* background-color:#122c3e89; */
-  border-radius: 10px;
-  background: linear-gradient(156deg, #101b33, #0a1923) padding-box,  linear-gradient(156deg, transparent 35%,#14f7ff, #54ddff) border-box;
-  border: 2px solid transparent;
-  position: relative;
-  left: 00px; /* Starting position */
+  background: #ffffff00;
+  box-shadow: 5px 5px 0px 0 rgb(34, 184, 204);
+  backdrop-filter: blur( 19px );
+  -webkit-backdrop-filter: blur( 19px );
+  border: 1px solid rgba(42, 241, 255, 0.288);
+  border-radius: 8px;
+  /* background: linear-gradient(156deg, #101b33, #0a1923) padding-box,  linear-gradient(156deg, transparent 35%,#14f7ff, #54ddff) border-box; */
+  left: 0px; /* Starting position */
 
 }
 

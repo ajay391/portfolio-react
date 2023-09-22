@@ -60,6 +60,27 @@ h2, .h2{
   margin-bottom: 2rem!important;
 }
 
+/* h2:before {
+  background-color: var(--primary-color2);
+  content: "";
+  display: inline-block;
+  height: 3px;
+  margin-right: 10px;
+  margin-bottom: 8px;
+  transition: all .42s cubic-bezier(.25,.8,.25,1);
+  width: 2rem;
+} */
+/* h2:after {
+  background-color: var(--primary-color2);
+  content: "";
+  display: inline-block;
+  height: 3px;
+  margin-left: 10px;
+  margin-bottom: 10px;
+  transition: all .42s cubic-bezier(.25,.8,.25,1);
+  width: 3rem;
+} */
+
 p {
   color: var(--small-text-color);
   font-size: 1.1rem;
@@ -69,7 +90,7 @@ p {
 
 h1,
 h2 {
-  color: #e2e8f0;
+  color: #ffffff;
   font-size: var(--heading-fontSize);
 }
 
